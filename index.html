@@ -12,7 +12,7 @@
 			top: 0px;
             background-image: url("images/Blog_BG.png");
             width: auto;
-            height: 4096px;
+            height: auto;
         }
         div.front{
             border:2px solid darkslategray;
@@ -20,9 +20,8 @@
             position: relative;
             top: 0px;
             margin:0 auto;
-            text-align: center;
             width: 500px;
-            height: 500px;
+            height: auto;
             background-color:rgba(255, 255, 255, 0.65);
         }
         h1{
@@ -40,6 +39,21 @@
             text-align: center;
             font-size: 18px;
         }
+        p.titles{
+            text-align: center;
+            font-weight: bolder;
+            
+        }
+        p.text{
+            font-weight: bold;
+        }
+        a{
+            text-decoration:none;
+            color: black;
+        }
+        a:hover{
+            color: gray;
+        }
     </style>
 </head>
 <body>
@@ -49,7 +63,12 @@
             <h2>这是ZZhangC的博客</h2>
             <h2>我会不定期上传一些自己的东西</h2>
             <h3>总之搞个背景先</h3>
-        </div>>
+        </div>
+        <div class="front">
+            
+            <p class="titles"><a href="pages/project1.html">项目1：视觉小说引擎</a></p>
+            <p class="text">这是我的第一个大项目，用C++实现的虚拟小说引擎。</p>
+        </div>
     </div>
 
 </body>
