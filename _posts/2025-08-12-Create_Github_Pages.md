@@ -5,7 +5,7 @@ date: 2025-08-12
 
 ## 0x00：关于
 
-本文将要介绍一种使用`Github Pages`与`Jekyll`创建个人网站的方法
+本文将要介绍一种使用*Github Pages*与*Jekyll*创建个人网站的方法
 
 ## 0x01：准备工作
 
@@ -35,7 +35,7 @@ Git
 
 点击右上角的你的Github头像，点击`Settings`，在左侧找到`SSH and GPG keys`并点击进入
 
-先不管这个页面，在本地安装好Git后，进入`Git bash`运行如下指令
+先不管这个页面，在本地安装好Git后，进入*Git bash*运行如下指令
 
 ```shell
 git config --global user.name "USERNAME"
@@ -55,7 +55,7 @@ ssh-keygen -t rsa -C "EMAIL"
 
 同样地，将`EMAIL`替换为你的Github注册邮箱
 
-执行这一命令后，bash会输出`id_rsa.pub`文件的路径
+执行这一命令后，bash会输出*id_rsa.pub*文件的路径
 
 使用
 
@@ -73,11 +73,11 @@ cat PATH_TO_PUBKEY
 
 新建一个任意名字的文件夹，这个文件夹将要作为你的个人页面的根目录
 
-在`Git bash`中进入该目录，使用`git init`命令初始化仓库
+在*Git bash*中进入该目录，使用`git init`命令初始化仓库
 
-用`git checkout -b main`创建并切换到`main`分支
+用`git checkout -b main`创建并切换到*main*分支
 
-使用`git remote add origin REPO_SSH`链接远程仓库并将`origin`作为远端仓库的别名，其中`REPO_SSH`是之前记下的仓库的SSH链接
+使用`git remote add origin REPO_SSH`链接远程仓库并将*origin*作为远端仓库的别名，其中`REPO_SSH`是之前记下的仓库的SSH链接
 
 用`git fetch origin`和`git merge origin/main`与远程仓库进行同步（实际上这一步并不必要，这是以防万一）
 
@@ -104,7 +104,7 @@ date: YYYY-MM-DD
 
 回到根目录，用`git add .`将文件夹下所有内容加入提交缓存，用`git commit -m "DESCRIPTION"`提交更改，这里的`DESCRIPTION`是你关于这次更改的描述
 
-最后，使用`git push origin main`将`main`分支推送到`origin`中的同名分支
+最后，使用`git push origin main`将*main*分支推送到*origin*中的同名分支
 
 ## 0x05开启Pages
 
