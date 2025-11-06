@@ -120,4 +120,4 @@ date: YYYY-MM-DD
 
 MARKDOWN的编辑教程参见*[MARKDOWN语法](https://markdown.com.cn/)*
 
-有关主题的内容，参见*[我的其它文章]()*
+有关主题的内容，参见*[主题模板 Themes | Jekyll 教程](https://jekylldo.cn/docs/themes/)*
