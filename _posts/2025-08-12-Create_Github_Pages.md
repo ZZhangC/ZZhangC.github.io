@@ -1,7 +1,7 @@
 ---
 title: "如何创建并简单配置GithubPages"
 date: 2025-08-12
-categories: [Github, Live]
+categories: [Github, Life]
 ---
 
 ## 0x00：关于
